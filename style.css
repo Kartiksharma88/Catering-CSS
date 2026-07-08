@@ -1,0 +1,148 @@
+/* Basic Level CSS */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* Navigation */
+.navbar {
+  background-color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.nav-links {
+  margin-top: 0;
+}
+
+/* Header */
+.header {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header img {
+  width: 100%;
+  display: block;
+}
+
+.header-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.header-text h1 {
+  margin: 0;
+  color: #555;
+  font-size: 32px;
+}
+
+/* Sections */
+.about-section, .menu-section {
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-section {
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.about-image img, .menu-image img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+}
+
+.about-content, .menu-content {
+  text-align: left;
+}
+
+.tag {
+  background-color: #ddd;
+  padding: 2px 5px;
+}
+
+.secondary-text {
+  color: #555;
+  font-style: italic;
+}
+
+.section-divider {
+  width: 85%;
+  border: 1px solid #ccc;
+}
+
+.address {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Form */
+.contact-form {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contact-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
